@@ -8,9 +8,6 @@ matrix:
     # Extra includes for OSX since python language is not available by default on OSX
     - os: osx
       language: generic
-      env: PYTHON_VER=3.5
-    - os: osx
-      language: generic
       env: PYTHON_VER=3.6
 
     - os: linux
@@ -33,7 +30,7 @@ before_install:
 install:
 
     # Create test environment for package
-  - conda create -n test python=$PYTHON_VER pip pytest pytest-cov
+  - conda create -n test python=$PYTHON_VER pip pytest pytest-cov MDAnalysis
   - conda activate test
 
     # Install pip only modules
