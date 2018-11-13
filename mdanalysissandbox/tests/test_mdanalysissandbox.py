@@ -10,3 +10,7 @@ import sys
 def test_mdanalysissandbox_imported():
     """Sample test, will always pass so long as import statement worked"""
     assert "mdanalysissandbox" in sys.modules
+
+
+def test_fixture(HVR):
+    assert len(HVR.atoms) > 1
