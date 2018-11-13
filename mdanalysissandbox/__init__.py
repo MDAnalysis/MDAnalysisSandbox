@@ -7,8 +7,6 @@ A repo for testing out open source software contribution
 # Safe to remove with Python 3-only code
 from __future__ import absolute_import
 
-# Add imports here
-from .mdanalysissandbox import *
 
 # Handle versioneer
 from ._version import get_versions
