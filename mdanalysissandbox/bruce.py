@@ -3,7 +3,7 @@
 
 import numpy as np
 
-def cound_names(ag, name):
+def count_names(ag, name):
 	"""count how many atoms have a particular name
 
 	PARAMETERS
