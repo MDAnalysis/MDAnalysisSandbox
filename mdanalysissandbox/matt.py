@@ -5,4 +5,4 @@
 
 
 def make_cake():
-    return 🍰
+    return '🍰'
