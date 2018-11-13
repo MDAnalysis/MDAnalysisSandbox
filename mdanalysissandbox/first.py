@@ -1,4 +1,4 @@
-"""Hey this i smy cool module
+"""Hey this is my cool module
 
 
 """
