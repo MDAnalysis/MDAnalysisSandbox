@@ -6,7 +6,7 @@
 """
 
 
-def printme( str ):
+def printme(s):
     "This prints a passed string into this function"
-    return (str + "!")
+    return s + "!"
 
