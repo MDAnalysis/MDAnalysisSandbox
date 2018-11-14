@@ -6,7 +6,7 @@ import numpy as np
 def count_names(ag, name):
 	"""count how many atoms have a particular name
 
-	PARAMETERS
+	Parameters
 	-----------
 	ag : Atom group
 	name : str
